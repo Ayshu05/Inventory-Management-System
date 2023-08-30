@@ -15,6 +15,30 @@ d. Purchase Management: Users will be able to create purchase orders for restock
 
 e. Billing and Invoicing: The system will generate invoices for customer purchases and track billing information. It will calculate the total amount due, apply discounts if applicable.
 
+This project was developed by B Ayshwarya, C B Ananya and Harini Mohan
+**
+Setting up the environment and adding libraries**
+Download Netbeans IDE (We have used Netbeans IDE 8.2) Download Oracle 11g and setup sqlplus. Set userid and password.
+
+Execute the commands in the "CreateTables.txt" file in sqlplus Command Line Client one-by-one for creating the necessary tables for the application.
+
+Extract the Project Folder from the zip file in this repository.
+
+Open the project folder using the IDE. On the left, below a line of icons, you will see- Projects, Services, Files. Click on Services. Under Services, right-click on Drivers and add the "ojdbc8.jar" file which you can find in the "JAR FILES" folder of this repository. Now, under "Drivers" you will see "Oracle Thin". Select "Oracle Thin". In the window that opens, replace the userid and password with your localhosts's userid and password and click on "Finish"
+
+This should connect your application to the database.
+
+Under the Projects section in the left side, click on Libraries and add all the jar folders which are available in the "JAR FILES" folder of this repository.
+
+To run the application:
+Under the Projects section, in the project folder, navigate to "Source Packages"->"MainFiles".
+
+Run the file named "Homes.java"
+
+You are now good to go!
+
+For a complete application walkthrough and other implementation details, please check out the Project Report and the Program Walkthrough documents!
+
 f. User Authentication and Security: The system will require users to authenticate themselves before accessing the application.
 
 g.Generate bill: The invoice that has been generated for the particular order can be generated as a hard copy by connecting to system printer and also can be obtained as a pdf.

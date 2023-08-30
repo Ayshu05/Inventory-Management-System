@@ -16,8 +16,9 @@ d. Purchase Management: Users will be able to create purchase orders for restock
 e. Billing and Invoicing: The system will generate invoices for customer purchases and track billing information. It will calculate the total amount due, apply discounts if applicable.
 
 This project was developed by B Ayshwarya, C B Ananya and Harini Mohan
-**
-Setting up the environment and adding libraries**
+
+# Setting up the environment and adding libraries
+
 Download Netbeans IDE (We have used Netbeans IDE 8.2) Download Oracle 11g and setup sqlplus. Set userid and password.
 
 Execute the commands in the "CreateTables.txt" file in sqlplus Command Line Client one-by-one for creating the necessary tables for the application.
@@ -30,7 +31,7 @@ This should connect your application to the database.
 
 Under the Projects section in the left side, click on Libraries and add all the jar folders which are available in the "JAR FILES" folder of this repository.
 
-To run the application:
+# To run the application:
 Under the Projects section, in the project folder, navigate to "Source Packages"->"MainFiles".
 
 Run the file named "Homes.java"
